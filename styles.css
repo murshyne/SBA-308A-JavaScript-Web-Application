@@ -4,9 +4,9 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
     background-image: url('./Bg.png');
-    background-size: cover; /* Make the image cover the entire page */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
 .container {
@@ -29,5 +29,18 @@ body {
     padding: 10px;
     width: 150px;
     background: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(255, 254, 254);
+}
+form {
+    margin-top: 20px;
+}
+
+form input {
+    margin: 5px;
+    padding: 8px;
+    width: 30%;
+}
+
+form button {
+    padding: 10px;
 }

@@ -1,4 +1,3 @@
-
 export const displayExercises = (exercises) => {
   const gallery = document.getElementById("exercise-gallery");
   gallery.innerHTML = "";
